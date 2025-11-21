@@ -34,7 +34,7 @@ git clone "https://github.com/YourUsername/CIFAR10-CNN-Classifier"
    pip install -r requirements.txt
     ````
 
-3. Run the notebook `Image Classification.ipynb` or the Python scripts in `src/`.
+3. Run the notebook `Image_Classification.ipynb` or the Python scripts in `src/`.
 
 ## References
 
