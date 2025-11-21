@@ -23,6 +23,7 @@ The project uses the **CIFAR‑10 dataset**, which contains 60,000 32×32 colour
 - **Interpretation**: Visualisation of feature maps from convolutional layers to understand learned representations.
 
 ## How to Run
+
 Clone the repository:  
 ```bash
 git clone "https://github.com/YourUsername/CIFAR10-CNN-Classifier"
@@ -37,14 +38,7 @@ bash
 Copy code
 CIFAR10_CNN_Training.ipynb
 CIFAR10_CNN_Evaluation.ipynb
-Results
-Achieved strong classification accuracy on CIFAR‑10 test set.
 
-Confusion matrices highlight common misclassifications.
-
-Feature map visualisations show which parts of images the CNN focuses on during prediction.
-
-References
 Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Available: https://www.cs.toronto.edu/~kriz/cifar.html. Accessed: 21 November 2025.
 
 TensorFlow Developers. CIFAR10 dataset – Keras. Available: https://keras.io/api/datasets/cifar10/. Accessed: 21 November 2025.
@@ -58,3 +52,6 @@ Keras Documentation. ImageDataGenerator API. Available: https://keras.io/api/pre
 scikit-learn. Model evaluation: classification metrics. Available: https://scikit-learn.org/stable/modules/model_evaluation.html. Accessed: 21 November 2025.
 
 Seaborn. Statistical data visualisation library. Available: https://seaborn.pydata.org/. Accessed: 21 November 2025.
+
+vbnet
+Copy code
