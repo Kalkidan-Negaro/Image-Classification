@@ -22,24 +22,24 @@ The project uses the **CIFAR‑10 dataset**, which contains 60,000 32×32 colour
 - **Evaluation**: Accuracy, loss curves, confusion matrix, and classification report.  
 - **Interpretation**: Visualisation of feature maps from convolutional layers to understand learned representations.
 
-## How to Run 
-1. Clone the Repository
-Use the git clone command to download the project source code.
+## How to Run
 
-Bash
+### 1. Clone the Repository
+Use the `git clone` command to download the project source code.
 
+```bash
 git clone "https://github.com/YourUsername/CIFAR10-CNN-Classifier"
 2. Install Dependencies
 Navigate to the repository directory (if necessary) and install the required Python packages listed in requirements.txt.
 
-Bash
-
+bash
+Copy code
 pip install -r requirements.txt
 3. Run the Training and Evaluation
 Execute the Jupyter notebooks to train and evaluate the Convolutional Neural Network (CNN) model.
 
-Bash
-
+bash
+Copy code
 CIFAR10_CNN_Training.ipynb
 CIFAR10_CNN_Evaluation.ipynb
 References
@@ -47,13 +47,12 @@ Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Av
 
 TensorFlow Developers. CIFAR10 dataset – Keras. Available: https://keras.io/api/datasets/cifar10/. Accessed: 21 November 2025.
 
-van der Maaten, L., & Hinton, G. (2008). Visualising data using t‑SNE. Journal of Machine Learning Research, 9, 2579–2605.
+van der Maaten, L., & Hinton, G. (2008). Visualising data using t-SNE. Journal of Machine Learning Research, 9, 2579–2605.
 
-Selvaraju, R. R. et al. (2017). Grad‑CAM: Visual explanations from deep networks via gradient‑based localisation. Available: https://arxiv.org/abs/1610.02391. Accessed: 21 November 2025.
+Selvaraju, R. R. et al. (2017). Grad-CAM: Visual explanations from deep networks via gradient-based localisation. Available: https://arxiv.org/abs/1610.02391. Accessed: 21 November 2025.
 
 Keras Documentation. ImageDataGenerator API. Available: https://keras.io/api/preprocessing/image/. Accessed: 21 November 2025.
 
 scikit-learn. Model evaluation: classification metrics. Available: https://scikit-learn.org/stable/modules/model_evaluation.html. Accessed: 21 November 2025.
 
 Seaborn. Statistical data visualisation library. Available: https://seaborn.pydata.org/. Accessed: 21 November 2025.
-
