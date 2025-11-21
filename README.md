@@ -24,35 +24,36 @@ The project uses the **CIFAR‑10 dataset**, which contains 60,000 32×32 colour
 
 ## How to Run
 
-### 1. Clone the Repository
-Use the `git clone` command to download the project source code.
-
-```bash
+1. Clone the repository:  
+ ````
 git clone "https://github.com/YourUsername/CIFAR10-CNN-Classifier"
-2. Install Dependencies
-Navigate to the repository directory (if necessary) and install the required Python packages listed in requirements.txt.
+```
+2. Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-3. Run the Training and Evaluation
-Execute the Jupyter notebooks to train and evaluate the Convolutional Neural Network (CNN) model.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-CIFAR10_CNN_Training.ipynb
-CIFAR10_CNN_Evaluation.ipynb
-References
-Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Available: https://www.cs.toronto.edu/~kriz/cifar.html. Accessed: 21 November 2025.
+3. Run the notebook `Image Classification.ipynb` or the Python scripts in `src/`.
 
-TensorFlow Developers. CIFAR10 dataset – Keras. Available: https://keras.io/api/datasets/cifar10/. Accessed: 21 November 2025.
+## References
+
+Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Available at: https://www.cs.toronto.edu/~kriz/cifar.html
+. Accessed: 21 November 2025.
+
+TensorFlow Developers. CIFAR10 dataset – Keras. Available at: https://keras.io/api/datasets/cifar10/
+. Accessed: 21 November 2025.
 
 van der Maaten, L., & Hinton, G. (2008). Visualising data using t-SNE. Journal of Machine Learning Research, 9, 2579–2605.
 
-Selvaraju, R. R. et al. (2017). Grad-CAM: Visual explanations from deep networks via gradient-based localisation. Available: https://arxiv.org/abs/1610.02391. Accessed: 21 November 2025.
+Selvaraju, R. R. et al. (2017). Grad-CAM: Visual explanations from deep networks via gradient-based localisation. Available at: https://arxiv.org/abs/1610.02391
+. Accessed: 21 November 2025.
 
-Keras Documentation. ImageDataGenerator API. Available: https://keras.io/api/preprocessing/image/. Accessed: 21 November 2025.
+Keras Documentation. ImageDataGenerator API. Available at: https://keras.io/api/preprocessing/image/
+. Accessed: 21 November 2025.
 
-scikit-learn. Model evaluation: classification metrics. Available: https://scikit-learn.org/stable/modules/model_evaluation.html. Accessed: 21 November 2025.
+scikit-learn. Model evaluation: classification metrics. Available at: https://scikit-learn.org/stable/modules/model_evaluation.html
+. Accessed: 21 November 2025.
 
-Seaborn. Statistical data visualisation library. Available: https://seaborn.pydata.org/. Accessed: 21 November 2025.
+Seaborn. Statistical data visualisation library. Available at: https://seaborn.pydata.org/
+. Accessed: 21 November 2025.
