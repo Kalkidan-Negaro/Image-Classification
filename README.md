@@ -27,12 +27,12 @@ The project uses the **CIFAR‑10 dataset**, which contains 60,000 32×32 colour
 1. Clone the repository:  
  ````
 git clone "https://github.com/YourUsername/CIFAR10-CNN-Classifier"
-```
+ ````
 2. Install dependencies:
 
-   ```bash
+    ````
    pip install -r requirements.txt
-   ```
+    ````
 
 3. Run the notebook `Image Classification.ipynb` or the Python scripts in `src/`.
 
